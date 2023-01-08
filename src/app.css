@@ -1,0 +1,53 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: Calibri, sans-serif;
+
+}
+
+.username {
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+a {
+  @apply hover:text-white;
+}
+
+
+.navbar-section {
+  @apply flex items-center gap-2
+}
+
+.navbar > a {
+@apply bg-blue-900 rounded-t-xl p-2 hover:bg-blue-700 
+}
+
+\forums\forum\251-vigor\.navbar-brand { 
+  @apply mr-5 text-xl
+}
+
+.navbar {
+ 
+  @apply mx-6 flex items-center gap-2
+}
+
+.toastbar > div::after {
+  content: ">"
+}
+.toastbar > div[last]::after {
+  content: ""
+}
+
+
+.toastbar > div::after {
+  content: ">"
+}
+.toastbar > div[name="last"]::after {
+  content: ""
+}
+
+
